@@ -127,7 +127,7 @@ namespace Tic_Tac_Toe_Console_Game
             bool detectedWin = false;
             int sum1Row = gameBoard[0] + gameBoard[3] + gameBoard[6];
             int sum2Row = gameBoard[1] + gameBoard[4] + gameBoard[7];
-            int sum3Row = gameBoard[2] + gameBoard[6] + gameBoard[8];
+            int sum3Row = gameBoard[2] + gameBoard[5] + gameBoard[8];
 
 
             if (sum1Row == target || sum2Row == target || sum3Row == target) { detectedWin = true; }
