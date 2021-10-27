@@ -22,6 +22,9 @@ namespace Tic_Tac_Toe_VS_CPU
             char[] gameBoard = new char[9] { '-', '-', '-', '-', '-', '-', '-', '-', '-' };
             string winner = string.Empty;
 
+
+            Console.ForegroundColor = ConsoleColor.Green;
+
             Console.WriteLine("Welcome to my simple tic tac toe game. You can place a symbol on the board by selecting its place on the board (0-8)\n");
             Console.WriteLine("Please Note: Your symbol is X , the computer plays with O.");
             Console.WriteLine("Press Enter to start playing!");
